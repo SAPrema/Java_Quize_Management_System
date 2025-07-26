@@ -1,69 +1,82 @@
-Quiz Management System
-A simple Java-based quiz system where admins can add questions and students can take quizzes.
-What This Program Does
+# 📚 Quiz Management System
 
-Admin users can add multiple choice questions
-Student users can take 10-question quizzes
-All data is saved in JSON files
-Shows score and feedback after quiz
+A simple **Java-based** quiz application where:
+- **Admins** can add multiple-choice questions
+- **Students** can take 10-question quizzes
+- Data is stored in **JSON** files
 
-How to Run
+---
 
-Open the project in IntelliJ IDEA
-Make sure you have Java 11 or newer
-Run the QuizManagementSystem.java file
-Login with the default users below
+##  Features
 
-Default Login Details
-Admin Login (to add questions):
+###  Admin
+- Login as admin
+- Add new questions (4 options, 1 correct answer)
+- Save questions to a `quiz.json` file
 
-Username: admin
-Password: 1234
+###  Student
+- Login as student
+- Take a quiz of 10 random questions
+- Get instant score and feedback
+- Retake the quiz anytime
 
-Student Login (to take quiz):
+---
 
-Username: salman
-Password: 1234
+## 🛠️ How to Run
 
-What Happens When You Run It
-Admin Flow:
+1. Open the project in **IntelliJ IDEA**
+2. Ensure you have **Java 11** or newer installed
+3. Run the file: `QuizManagementSystem.java`
+4. Login using one of the following default credentials:
 
-Login with admin credentials
-Add questions one by one
-Each question has 4 options and 1 correct answer
-Keep adding questions or quit
+### 🔐 Default Login Credentials
 
-Student Flow:
+#### Admin Login (to add questions)
+- **Username**: `admin`
+- **Password**: `1234`
 
-Login with student credentials
-Take a 10-question quiz
-Get immediate results with feedback
-Can retake the quiz
+#### Student Login (to take quiz)
+- **Username**: `salman`
+- **Password**: `1234`
 
-Files Created
+---
 
-users.json - Stores usernames and passwords
-quiz.json - Stores all the quiz questions
+## 📂 Files Created
 
-Score System
+| File         | Description                          |
+|--------------|--------------------------------------|
+| `users.json` | Stores login credentials             |
+| `quiz.json`  | Stores all quiz questions            |
 
-8-10 correct: "Excellent!"
-5-7 correct: "Good."
-3-4 correct: "Very poor!"
-0-2 correct: "Very sorry you are failed."
+---
 
-Technologies Used
+## 🧠 Score Feedback System
 
-Java
-Gson library for JSON handling
-IntelliJ IDEA
+| Score Range | Feedback Message                     |
+|-------------|---------------------------------------|
+| 8 – 10      |  **Excellent!**                     |
+| 5 – 7       |  **Good.**                          |
+| 3 – 4       |  **Very poor!**                    |
+| 0 – 2       |  **Very sorry, you are failed.**    |
+
+---
+
+## 💻 Technologies Used
+
+- **Java**
+- **Gson** (Google's JSON library)
+- **IntelliJ IDEA**
+
+---
+
+## 📘 SQA Topics Covered
+
+The quiz questions focus on:
+- Types of Testing
+- Software Testing Principles
+- Black-box & White-box Testing
+- Test Case Design Techniques
 
 
-The system comes with 20+ Software Quality Assurance (SQA) questions about:
-
-Testing types
-Software testing principles
-Black box and white box testing
-Test case design
 
 
